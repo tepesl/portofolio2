@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.first-h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lucian {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hello {
+    font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.first-p {
+    font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+hr {
+    width: 80%;
+    color: #B159E7;
+}
+
+.my-skills {
+    color: black;
+    font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.sk-h3 {
+    font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+    font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.img-skills {
+    height: 150px;
+    grid-column: span 2;
+    border: 5px solid rgb(177, 89, 231, 0.3);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sk {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background: #B159E7;
+    border-radius: 8px;
+    font-family: "Mukta", sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #C573F7;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.copyright {
+    margin: 0;
+    padding: 20px;
+}
+
+.laptop {
+    width: 100%;
+}
+
+@media (max-width: 1000px){
+    h1 {
+        font-size: 2rem;
+    }
+    .first-h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 650px){
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 540px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
